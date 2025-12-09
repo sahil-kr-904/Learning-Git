@@ -9,5 +9,10 @@ int factorial(int n){
 }
 
 int main(){
-    cout << "Hello World!";
+    int n;
+    cout << "Hello World!\n";
+    cout << "Enter Number:\n";
+    cin >> n;
+    cout << "Factorial of " << n << " is: " << factorial(n);
+    return 0;
 }

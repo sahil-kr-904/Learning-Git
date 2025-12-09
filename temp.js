@@ -6,3 +6,5 @@ const factorial = (n)=>{
 }
 
 console.log("Hello World!");
+let n = 5;
+console.log("Factorial of 5 is: ",factorial(n));
